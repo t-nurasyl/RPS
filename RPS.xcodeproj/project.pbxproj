@@ -14,6 +14,9 @@
 		1839FE4820DDB2850086907A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839FE4620DDB2850086907A /* LaunchScreen.storyboard */; };
 		1839FE5320DDB2850086907A /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839FE5220DDB2850086907A /* RPSTests.swift */; };
 		1839FE5E20DDB2850086907A /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839FE5D20DDB2850086907A /* RPSUITests.swift */; };
+		1839FE6C20DDB4D30086907A /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839FE6B20DDB4D30086907A /* RPSMatch.swift */; };
+		1839FE6E20DDB5000086907A /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839FE6D20DDB5000086907A /* RPS.swift */; };
+		1839FE7020DDB5480086907A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839FE6F20DDB5480086907A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1839FE5920DDB2850086907A /* RPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1839FE5D20DDB2850086907A /* RPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITests.swift; sourceTree = "<group>"; };
 		1839FE5F20DDB2850086907A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839FE6B20DDB4D30086907A /* RPSMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSMatch.swift; sourceTree = "<group>"; };
+		1839FE6D20DDB5000086907A /* RPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS.swift; sourceTree = "<group>"; };
+		1839FE6F20DDB5480086907A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				1839FE3D20DDB2830086907A /* AppDelegate.swift */,
 				1839FE3F20DDB2830086907A /* ViewController.swift */,
+				1839FE6F20DDB5480086907A /* ResultViewController.swift */,
+				1839FE6D20DDB5000086907A /* RPS.swift */,
+				1839FE6B20DDB4D30086907A /* RPSMatch.swift */,
 				1839FE4120DDB2830086907A /* Main.storyboard */,
 				1839FE4420DDB2850086907A /* Assets.xcassets */,
 				1839FE4620DDB2850086907A /* LaunchScreen.storyboard */,
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1839FE7020DDB5480086907A /* ResultViewController.swift in Sources */,
+				1839FE6C20DDB4D30086907A /* RPSMatch.swift in Sources */,
+				1839FE6E20DDB5000086907A /* RPS.swift in Sources */,
 				1839FE4020DDB2830086907A /* ViewController.swift in Sources */,
 				1839FE3E20DDB2830086907A /* AppDelegate.swift in Sources */,
 			);
